@@ -30,4 +30,3 @@ def identify(pilot_name):  # This function takes the name of the pilots and retu
 
 
 print(identify(name(pilot("https://swapi.dev/api/starships/10/"))))
- 
