@@ -33,6 +33,7 @@
 #         print("Buzz")
 #     current_number += 1
 
+
 invalid = True
 while invalid:
     games = input("How many games do you want to play?")
@@ -50,8 +51,8 @@ while invalid:
                 print("Please enter a valid answer")
     else:
         print("Please enter a valid answer")
-game_number = 0
-current_number = 1
+    game_number = 0
+    current_number = 1
 while game_number < games:
     print(f"This is game number {game_number+1}")
     while current_number <= max_number:
@@ -67,5 +68,7 @@ while game_number < games:
     game_number += 1
     current_number = 0
 print("Thanks for playing with me")
+
+
 
 
